@@ -1,7 +1,7 @@
 module Helpers
 	HTML_DIR = File.join(
 		File.dirname(__FILE__),
-		'..', 'html'
+		'..', 'public'
 	)
 
 	def html(name)
